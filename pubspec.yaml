@@ -33,7 +33,6 @@ dependencies:
   lpinyin: ^1.0.7
   # Dart 常用工具类库 https://github.com/Sky24n/common_utils
   common_utils: ^1.1.1
-  flutter_icons: ^1.0.0+1
 
 
 
@@ -57,6 +56,13 @@ flutter:
   assets:
     - images/wechat.png
     - images/qq_icon.png
+    - images/active.png
+    - images/xing.png
+    - images/qi.png
+    - images/qiu.png
+    - images/huo.png
+    - images/pin.png
+    - images/beijing.jpg
     - data/china.json
     - data/university.json
   #  - images/a_dot_ham.jpeg

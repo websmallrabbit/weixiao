@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weixiao/demos/index.dart';
 import 'package:weixiao/util/common.dart';
-import 'package:weixiao/components/page_scaffold.dart';
 
 class SchoolPage extends StatefulWidget {
   @override

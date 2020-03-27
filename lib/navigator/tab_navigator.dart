@@ -1,5 +1,5 @@
+//import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:weixiao/pages/home_page.dart';
 import 'package:weixiao/pages/my_page.dart';
 import 'package:weixiao/pages/search_page.dart';
@@ -40,9 +40,12 @@ class _TabNavigatorState extends State<TabNavigator> {
           },
           type: BottomNavigationBarType.fixed,
           items: [
-            _bottomItem('首页', Entypo.renren, 0),
-            _bottomItem('推荐', FontAwesome.heart, 1),
-            _bottomItem('我的圈子', FontAwesome.soccer_ball_o, 2),
+//            _bottomItem('首页', Entypo.renren, 0),
+//            _bottomItem('推荐', FontAwesome.heart, 1),
+//            _bottomItem('我的圈子', FontAwesome.soccer_ball_o, 2),
+            _bottomItem('首页', Icons.account_circle, 0),
+            _bottomItem('推荐', Icons.account_circle, 1),
+            _bottomItem('我的圈子', Icons.account_circle, 2),
             _bottomItem('我的', Icons.account_circle, 3),
           ]),
     );
